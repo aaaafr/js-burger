@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background-color: #FFF5E2;
+}
+
+#logo_burger{
+    position: relative;
+    right: 100px;
+    height: 180px;
+}
+
+.container {
+    width:50%;
+    float:left;
+    margin: 0 auto;
+}
+
+.container_sm {
+    width:90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#name_burger {
+    border-style: none;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#lettuce:checked {
+    color:#D33359;
+}
+
+.discount {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.discount p {
+    font-size: 20px;
+    color:black;
+}
+
+.discount input {
+    width: 70%;
+    background-color: #FFF5E2;
+    border-style: none;
+    border-radius: 10%;
+}
+.generate {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #FDBB40;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10%;
+    padding:10px;
+}
+
+.text_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#price {
+    font-size:20px;
+}
+
+
+
+/* bg */
+#site_header{
+    background-color: #FDBB40;
+}
+
+#site_main {
+    background-color: white;
+}
+
+#site_footer {
+    background-color: #D33359;
+}
+
